@@ -1,0 +1,43 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * urbane:
+ *   - http://typekit.com/eulas/00000000000000007735c098
+ *   - http://typekit.com/eulas/00000000000000007735c09d
+ *   - http://typekit.com/eulas/00000000000000007735c0a7
+ *   - http://typekit.com/eulas/00000000000000007735c0a9
+ *
+ * © 2009-2023 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2021-05-13 11:20:29 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=dfk0zny&ht=tk&f=37746.37748.37754.37756&a=28743530&app=typekit&e=css");
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/d69d3b/00000000000000007735c098/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/d69d3b/00000000000000007735c098/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/d69d3b/00000000000000007735c098/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/6b9548/00000000000000007735c09d/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/6b9548/00000000000000007735c09d/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/6b9548/00000000000000007735c09d/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/254f88/00000000000000007735c0a7/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/254f88/00000000000000007735c0a7/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/254f88/00000000000000007735c0a7/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"urbane";
+src:url("https://use.typekit.net/af/decad5/00000000000000007735c0a9/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/decad5/00000000000000007735c0a9/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/decad5/00000000000000007735c0a9/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+.tk-urbane { font-family: "urbane",sans-serif; }

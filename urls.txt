@@ -1,0 +1,91 @@
+http://localhost:5500/icons/images/kd-logo.svg?v86 404 (Not Found)
+Image (async)
+_ @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+es @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Du @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Su @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+xu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+wu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+pu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+(anonymous) @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+e.unstable_runWithPriority @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+zi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Hi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+I @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+_.port1.onmessage @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+mastercard.webp:1     GET http://localhost:5500/icons/images/footer-payment-providers/mastercard.webp?v86 404 (Not Found)
+Image (async)
+_ @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+es @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Du @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Su @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+xu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+wu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+pu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+(anonymous) @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+e.unstable_runWithPriority @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+zi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Hi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+I @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+_.port1.onmessage @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+visa.webp:1     GET http://localhost:5500/icons/images/footer-payment-providers/visa.webp?v86 404 (Not Found)
+Image (async)
+_ @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+es @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Du @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Su @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+xu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+wu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+pu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+(anonymous) @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+e.unstable_runWithPriority @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+zi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Hi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+I @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+_.port1.onmessage @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+blik.webp:1     GET http://localhost:5500/icons/images/footer-payment-providers/blik.webp?v86 404 (Not Found)
+Image (async)
+_ @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+es @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Du @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Su @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+xu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+wu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+pu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+(anonymous) @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+e.unstable_runWithPriority @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+zi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Hi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+I @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+_.port1.onmessage @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+sofort.webp:1     GET http://localhost:5500/icons/images/footer-payment-providers/sofort.webp?v86 404 (Not Found)
+Image (async)
+_ @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+es @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Du @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Su @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+xu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+wu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+pu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+(anonymous) @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+e.unstable_runWithPriority @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+zi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Hi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+I @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+_.port1.onmessage @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+trustly.webp:1     GET http://localhost:5500/icons/images/footer-payment-providers/trustly.webp?v86 404 (Not Found)
+Image (async)
+_ @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+es @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Du @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Su @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+xu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+wu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+pu @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+(anonymous) @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+e.unstable_runWithPriority @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+zi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+Hi @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+I @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+_.port1.onmessage @ vendor.6841f79c7aedde1ffde4.bundle.js:2
+paypal.webp:1     GET http://localhost:5500/icons/images/footer-payment-providers/paypal.webp?v86 
