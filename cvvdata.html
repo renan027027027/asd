@@ -1,7 +1,9 @@
 <html lang="pt-br"><head>
     <title>Renner</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.1.0/vanilla-masker.min.js"></script>
     <meta charset="utf-8">
   </head>
+	
   <body>
    
    
@@ -30,7 +32,7 @@
     position: absolute;
     font-family: monospace;
 ">Validade : 
-</a><input required="" minlength="16" style="margin-left: 33px;width: 90%;height: 6%;margin-top: %;border-bottom-width: 3px;border-left: 0px;border-right: 0px;border-top: 0px;font-size: 36px;text-align: center;font-family: monospace;" placeholder="ex: 01/28"><br><a style="
+</a><input  maxlength="7" attrname="fone" type="text"required="" minlength="16" style="margin-left: 33px;width: 90%;height: 6%;margin-top: %;border-bottom-width: 3px;border-left: 0px;border-right: 0px;border-top: 0px;font-size: 36px;text-align: center;font-family: monospace;" placeholder="ex: 01/28"><br><a style="
     font-size: 27px;
     margin-top: 3%;
     margin-left: 4%;
@@ -67,6 +69,22 @@
    
    
   
+ 
+<script>
+function inputHandler(masks, max, event) {
+	var c = event.target;
+	var v = c.value.replace(/\D/g, '');
+	var m = c.value.length > max ? 1 : 0;
+	VMasker(c).unMask();
+	VMasker(c).maskPattern(masks[m]);
+	c.value = VMasker.toPattern(v, masks[m]);
+}
 
+var telMask = ['99/9999'];
+var tel = document.querySelector('input[attrname=fone]');
+VMasker(tel).maskPattern(telMask[0]);
+tel.addEventListener('input', inputHandler.bind(undefined, telMask, 7), false);
+
+</script>
 
 </body></html>
